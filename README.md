@@ -51,7 +51,9 @@ Performed on Test Dataset:
 | Neural Network (Factory Output)    | 0.0196    | 0.9888       |
 | Neural Network (Power Consumption) | 0.0354    | 0.9523       |
 
-
+The results are unusually strong. This is due to the fact that the data was randomly shuffled for training and testing, which is a practice that is not appropriate for time series data, but was unknown to us at the time.
+Another potential improvement would be to use a recurrent neural network, such as an LSTM, instead of a simple sequential model.
+However, the primary goal of this project was to gain experience working with a machine learning pipeline rather than achieving perfect results on the first attempt. These refinements were insights I only gained more than a year later from another course.
 
 ## **Conclusion & Visualizations**
 
